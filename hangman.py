@@ -54,7 +54,7 @@ disp_init()
 
 flag = 0
 while wrong_attempts < 3 :
-	guessed_char = raw_input('Guess:')
+	guessed_char = input('Guess:')
 	disp_char(guessed_char)
 	if check_done() == 1:
 		flag = 1
